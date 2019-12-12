@@ -9,9 +9,6 @@ function Router() {
 
   const [path, setPath] = useState(window.location.pathname);
 
-  console.log(window);
-  console.log(document);
-
   // here we ensure that navigation history button reload pages
   // history stack is handled by Link
   function addHistoryListener() {
